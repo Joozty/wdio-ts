@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@test/core": ["../core/src"]
+    },
+    "types": ["node", "webdriverio/sync", "@wdio/mocha-framework"]
+  }
+}
